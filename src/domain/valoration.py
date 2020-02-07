@@ -6,13 +6,13 @@ from uuid import UUID
 @dataclass
 class Valoration:
     id: UUID
-    movieId: UUID
-    userId: UUID
+    movie_id: UUID
+    user_id: UUID
 
     score: int
-    isFavorite: bool
+    is_favorite: bool
     seen: bool
     comment: str
 
-    createdAt: datetime
-    editedAt: datetime
+    created_at: datetime
+    edited_at: datetime

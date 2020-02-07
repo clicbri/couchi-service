@@ -8,5 +8,5 @@ class User:
     id: UUID
     nick: str
 
-    createdAt: datetime
-    editedAt: datetime
+    created_at: datetime
+    edited_at: datetime

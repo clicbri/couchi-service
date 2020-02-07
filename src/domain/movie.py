@@ -14,5 +14,5 @@ class Movie:
     genres: list[str]
     verified: bool
 
-    createdAt: datetime
-    editedAt: datetime
+    created_at: datetime
+    edited_at: datetime
